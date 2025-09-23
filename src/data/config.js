@@ -1,8 +1,8 @@
 export const profileConfig = {
-  name: "Ajit Kumar",
-  username: "@ajitdev",
+  name: "AJIT KUMAR PANDIT",
+  username: "@ajitkumarpandit",
   bio: "Full Stack Developer | Tech Enthusiast | Building amazing things",
-  avatar: "/avatar.jpg", // You can replace this with your actual avatar
+  avatar: "/ajitkumarpandit.png",
   backgroundGradient: "from-purple-400 via-pink-500 to-red-500",
   theme: "dark", // "light" or "dark"
 };
