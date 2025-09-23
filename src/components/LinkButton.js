@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { highlightText } from '@/utils/searchUtils';
+import SocialIcon from './SocialIcon';
 
 const LinkButton = ({ link, index, searchQuery, isFiltered = false }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -46,7 +47,7 @@ const LinkButton = ({ link, index, searchQuery, isFiltered = false }) => {
       <div className="relative flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <span className="text-2xl" role="img" aria-label={link.title}>
-            {link.icon}
+            <SocialIcon serviceName={link.icon} />
           </span>
           <div className="text-left">
             <div className="text-lg font-bold">

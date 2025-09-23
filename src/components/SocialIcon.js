@@ -9,6 +9,11 @@ import {
   FaEnvelope,
   FaInstagram,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import {
+  SiThreads,
+  SiPinterest,
+} from 'react-icons/si';
 
 const SocialIcon = ({ serviceName, size = 24, color = 'currentColor' }) => {
   let IconComponent;
@@ -22,6 +27,9 @@ const SocialIcon = ({ serviceName, size = 24, color = 'currentColor' }) => {
       break;
     case 'linkedin':
       IconComponent = FaLinkedin;
+      break;
+    case 'x (formerly twitter)':
+      IconComponent = FaXTwitter;
       break;
     case 'twitter':
       IconComponent = FaTwitter;
@@ -37,6 +45,12 @@ const SocialIcon = ({ serviceName, size = 24, color = 'currentColor' }) => {
       break;
     case 'instagram':
       IconComponent = FaInstagram;
+      break;
+    case 'threads':
+      IconComponent = SiThreads;
+      break;
+    case 'pinterest':
+      IconComponent = SiPinterest;
       break;
     default:
       return null; // Or a default icon if preferred
