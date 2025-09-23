@@ -11,7 +11,7 @@ export const socialLinks = [
   {
     id: 1,
     title: "Portfolio Website",
-    url: "ttps://ajitkumarpandit.nakprc.com",
+    url: "https://ajitkumarpandit.nakprc.com",
     icon: "Portfolio Website",
     color: "bg-gradient-to-r from-blue-500 to-blue-600",
     description: "Check out my latest projects",
