@@ -91,7 +91,7 @@ export const socialLinks = [
 ];
 
 export const siteConfig = {
-  title: "AjitTree - Your Link Tree",
-  description: "All your important links in one place",
-  url: "https://ajittree.vercel.app",
+  title: "AJIT KUMAR PANDIT - Official Accounts",
+  description: "All AJIT KUMAR PANDI important links in one place",
+  url: "https://ajit.nakprc.com",
 };

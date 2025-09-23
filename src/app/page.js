@@ -95,7 +95,7 @@ export default function Home() {
           {/* Footer */}
           <footer className="text-center mt-12 pb-8">
             <div className="text-sm text-gray-500 dark:text-gray-400">
-              <p className="mb-2">Made with ❤️ using AjitTree</p>
+              <p className="mb-2">Made with ❤️ by AJIT KUMAR PANDIT</p>
               <p>
                 Built with{" "}
                 <a
